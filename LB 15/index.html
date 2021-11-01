@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Карневич Виктория</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+         <style type="text/css">
+            body 
+            {
+                background-color: #DAEFDE;
+                color: #1B2E1E;
+                font-family: 'Oswald', sans-serif;
+            }
+            h1
+            {
+                font-size: 80px;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 150;
+                transition: 1s;
+                letter-spacing:7pt;
+            }
+            h1:hover
+            {
+                transform: scale(1.1);
+            }
+            #txt1
+            {
+
+                font-size: 20px;
+                position: relative;
+                top: 620;
+                left:60;
+                width: 360;
+            }
+            #txt2
+            {
+
+                font-size: 20px;
+                position: relative;
+                top: 510;
+                left:540;
+                width: 360;
+            } 
+            #txt3
+            {
+
+                font-size: 20px;
+                position: relative;
+                top: 400;
+                left:1020;
+                width: 360;
+            } 
+            h2
+            {
+                font-size: 30px;
+                position: absolute;
+                top:700;
+                left:70;
+            }
+
+            img
+            {
+                border: 5px solid #1B2E1E;
+                transition: 0.5s;
+
+            }
+            img:hover
+            {
+                transform: scale(1.1);
+            }
+            #img1
+            {
+                position: absolute;
+                top: 200; 
+                left: 60;
+                
+            }
+            #img2
+            {
+                position: absolute; 
+                left: 540;
+                top: 200;
+            }
+            #img3
+            {
+                position: absolute;
+                right: 60;
+                top: 200;
+            }
+            .pills 
+            {
+              position: relative;
+              top:450;
+              margin-left: 0;
+              list-style: none;
+              counter-reset: li;
+              font-family: calibri;
+            }
+            .pills li 
+            {
+              padding: 10px 0;
+              position: relative;
+              left: 1.5em;
+              margin-bottom: 0.75em;
+              padding-left: 1em;
+              background: #A0C0A5;
+              width: 360;
+            }
+            .pills li:before 
+             {
+              padding: 10px 0;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: -1.5em;
+              width: 1.875em;
+              text-align: center;
+              color: white;
+              font-weight: bold;
+              background: #1B2E1E;
+              border-bottom-left-radius: 70em;
+              border-top-left-radius: 70em;
+              counter-increment: li;
+              content: counter(li);
+            }
+        </style> 
+    </head>
+    <body>
+
+        <h1 align="center">Карневич Виктория</h1>
+        <div id="img1">
+        <img src="1.jpg" width="360" height="390">
+        </div>
+        <div id="img2">
+        <img src="2.jpg" width="360" height="390">
+        </div>
+        <div id="img3">
+        <img src="3.jpg" width="360" height="390">
+        </div>
+        <div id="txt1">
+        <p align="right">Веселая, жизнерадостная красотка<br>Учится в Академии управления при Президенте Республики Беларусь</p>
+        </div>
+        <div id="txt2">
+        <p align="center">Виктория предпочитает фотографии на фоне зелоных дверей гаража. И поверьте, данный фон прекрано подчеркивает ее красоту!</p>
+        </div>
+        <div id="txt3">
+        <p align="left">Если вдруг вы надумали звонить Вике, подумайте вначале, можете ли вы себе такое позволить. А если можете, смело звоните!</p>
+        </div>
+        <h2 align="center">Качества Вики</h2>
+        <ol class="pills">
+          <li>Жизнерадостная</li>
+          <li>Поддерживающая</li>
+          <li>Трудолюбивая</li>
+          <li>Красивая</li>
+          <li>Оригинальная</li>
+        </ol>
+    </body>
+</html>
